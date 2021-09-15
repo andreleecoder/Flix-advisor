@@ -35,6 +35,7 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
+    ewgewwrf
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
@@ -54,7 +55,7 @@ const App: React.FC = () => (
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+            <IonLabel>Hello</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
             <IonIcon icon={ellipse} />
@@ -62,7 +63,7 @@ const App: React.FC = () => (
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+            <IonLabel>warning</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
